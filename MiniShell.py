@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 # Importa as bibliotecas necessárias
 import os
 import sys
