@@ -209,7 +209,7 @@ class ShellSimples:
     def comando_exit(self):
         # Comando exit - finaliza o shell
         self.rodando = False
-        print("Tchau!")
+        print("Código Finalizado, tchau!")
 
     def comando_pwd(self):
         # Comando pwd - exibe diretório atual
@@ -326,7 +326,7 @@ class ShellSimples:
             except KeyboardInterrupt:
                 print("\nUse 'exit' para sair do shell")
             except EOFError:
-                print("\nTchau!")
+                print("\nCódigo Finalizado, tchau!")
                 break
             except Exception as e:
                 print(f"Erro: {e}")
